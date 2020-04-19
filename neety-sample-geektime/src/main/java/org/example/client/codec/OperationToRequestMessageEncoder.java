@@ -13,7 +13,7 @@ import java.util.List;
  * @author one
  * @date 2020/04/12
  */
-public class OperationEncoder extends MessageToMessageEncoder<Operation> {
+public class OperationToRequestMessageEncoder extends MessageToMessageEncoder<Operation> {
     /**
      * Encode from one message to an other. This method will be called for each written message that can be handled
      * by this encoder.
